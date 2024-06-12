@@ -7,3 +7,11 @@ run:
 # https://material.angular.io/guide/getting-started
 install_material:
 	ng add @angular/material
+
+
+# https://v17.angular.io/cli/generate#component-command
+create_module:
+  ng g m courses --routing
+
+create_component:
+  ng g c courses/courses
