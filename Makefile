@@ -15,3 +15,8 @@ create_module:
 
 create_component:
   ng g c courses/courses
+
+g_interface:
+  ng g interface courses/model/course
+g_s:
+  ng g s courses/services/courses
