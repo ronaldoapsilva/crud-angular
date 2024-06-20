@@ -20,3 +20,6 @@ g_interface:
   ng g interface courses/model/course
 g_s:
   ng g s courses/services/courses
+
+g_pipe:
+  ng g pipe shared/pipes/category
